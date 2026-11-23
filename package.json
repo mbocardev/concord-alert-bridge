@@ -1,0 +1,15 @@
+{
+  "name": "concord-alert-bridge",
+  "version": "1.0.0",
+  "description": "Posts Slack or Teams alerts when Concord tasks are ready for review or claims go stale.",
+  "main": "src/index.js",
+  "bin": { "concord-alert-bridge": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["concord", "slack", "teams", "alerts"],
+  "license": "MIT",
+  "type": "commonjs"
+}
